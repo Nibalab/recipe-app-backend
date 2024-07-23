@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = "127.0.0.1";
-    private $db_name = "recipe_app";
-    private $username = "root"; // change if necessary
-    private $password = ""; // change if necessary
+    private $db_name = "recipe app";
+    private $username = "root"; 
+    private $password = ""; 
     public $conn;
 
     public function getConnection() {
